@@ -111,7 +111,7 @@ const getdata = (country)=>{
                    `
                   
                 }
-                table_data.innerHTML += ihtml;
+                table_data.innerHTML = ihtml;
             })
             .catch(error => {
                 // Handle any errors
